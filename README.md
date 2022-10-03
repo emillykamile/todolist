@@ -10,5 +10,5 @@ Esse projeto foi desenvolvido para o desafio da terceira Sprint da turma de Fron
 · CSS
 · Javascript
 
-⌨️ com ❤️ por Emilly Kamile 😊
+Construido com ❤️ por Emilly Kamile 😊
 
