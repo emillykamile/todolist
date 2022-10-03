@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/style/style.css" rel="stylesheet">
+    <title>Planejamento Semanal</title>
+</head>
+<body>
+    <!-- Cabeçalho da Página -->
+    <nav class="nav-flex-container">
+        <div class="nav-flex-itens">
+          <div class="nav-titulo-principal">
+            <h3>Planejamento Semanal</h3>
+            <p>Utilize o formulário para adicionar novas tarefas:</p>
+          </div>
+          <div class="nav-botoes-de-acao">
+            <button class="botao botao-salvar">Salvar Local Storage</button>
+            <button class="botao botao-excluir">Excluir Local Storage</button>
+          </div>
+
+            <!-- Data e Hora do Nav-->
+            <div>
+                <script language=javascript type="text/javascript">
+                    monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "agosto", "outubro", "novembro", "dezembro")
+                    now = new Date()
+                    document.write ( now.getDay() + "de " + now.getDate() + "de " + monName [now.getMonth() ]   + " de " + now.getFullYear() )
+                </script>
+            </div>
+        </div>
+      </nav>
+      <!-- Dropdown da Semana --> 
+      <section class="menu-container">
+        <div class="menu-itens">
+            <input class="input-text" type="text" placeholder="Atividade"/>
+            <select class="dia-itens" name="" id="">
+                <option value="segunda">Segunda-feira</option>
+                <option value="terca">Terça-feira</option>
+                <option value="quarta">Quarta-feira</option>
+                <option value="quinta">Quinta-feira</option>
+                <option value="sexta">Sexta-feira</option>
+                <option value="sabado">Sábado</option>
+                <option value="domingo">Domingo</option>
+            </select>
+
+          <input class="horario" type="time" min="00:00" max="24:00" />
+          <button class="botao botao-salvar">Adicionar atividade</button>
+          <button class="botao botao-excluir">Excluir Todos</button>
+        </div>
+      </section>
+
+      <!-- Cabeçalho do cronograma -->
+      <section class="container-dias-da-semana">
+        <div class="dias-da-semana">
+          <div class="dia segunda">
+            <a href="#"><p>Segunda-feira</p></a>
+          </div>
+          <div class="dia terca">
+            <a href="#"><p>Terça-feira</p></a>
+          </div>
+          <div class="dia quarta">
+            <a href="#"><p>Quarta-feira</p></a>
+          </div>
+          <div class="dia quinta">
+            <a href="#"><p>Quinta-feira</p></a>
+          </div>
+          <div class="dia sexta">
+            <a href="#"><p>Sexta-feira</p></a>
+          </div>
+          <div class="dia sabado">
+            <a href="#"><p>Sábado</p></a>
+          </div>
+          <div class="dia domingo">
+            <a href="#"><p>Domingo</p></a>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Seção de Atividades -->
+
+      <!-- Scroll Horizontal -->
+
+      <!-- Scroll Vertical -->
+
+        <section class="section-atividades">
+          <div class="card-atividades">
+            <div class="horario-atividades-div"></div>
+            <div class="atividades-div"></div>
+            <div class="botao-excluir-atividade"></div>
+          </div>
+        </section>
+
+      <!-- Scripts do utilizados no projeto -->
+      <script src="./script.js"></script>
+      <script src="./script-hrs.js"></script>
+    </body>
+</body>
+</html>

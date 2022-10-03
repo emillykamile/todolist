@@ -1,0 +1,143 @@
+@import './reset.css';
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+
+  .nav-flex-itens {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 23px rgba(128, 128, 128, 0.40);
+    border-radius: 0px 0px 30px 30px;
+    height: 18vh;
+  }
+  
+  .nav-titulo-principal {
+    width: 40vw;
+    background-color: #6688ff;
+    padding: 12px 0px 12px 24px;
+    border-radius: 0px 14px 15px 0px;
+  }
+  
+  .nav-titulo-principal h3 {
+    padding-bottom: 10px;
+    color: white;
+    font-size: 24px;
+  }
+
+  .nav-titulo-principal p {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .nav-botoes-de-acao {
+    margin-left: 10vw;
+  }
+  
+  button.botao-salvar {
+    background-color: #2cbe82;
+  }
+  
+  button.botao-excluir {
+    background-color: #da2b40;
+  }
+  
+  
+  .menu-itens {
+    margin: 12px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .input-text {
+    width: 165px;
+    padding: 10px 200px 10px 12px;
+    border: 1px solid #2cbe82;
+    border-radius: 10px;
+  }
+  
+  .dia-itens {
+    width: 210px;
+    border: 1px solid #2cbe82;
+    border-radius: 10px;
+  }
+  
+  .horario {
+    width: 100px;
+    border: 1px solid #2cbe82;
+    border-radius: 10px;
+  }
+  
+  .dias-da-semana {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .segunda {
+    background-color: #ffa246;
+  }
+  
+  .terca {
+    background-color: #35e185;
+  }
+  
+  .quarta {
+    background-color: #6688ff;
+  }
+  
+  .quinta {
+    background-color: #b366ff;
+  }
+  
+  .sexta {
+    background-color: #66D1FF;
+  }
+  .sabado {
+    background-color: #FF66D4;
+  }
+  .domingo {
+    background-color: #FF6666;
+  }
+  
+  .dia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 24px rgba(128, 128, 128, 0.40);
+    border-radius: 9px 9px 0px 0px;
+    margin: 33px;
+    width: 150px;
+    height: 33px;
+    font-weight: 700;
+  }
+  
+  .dia a{
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .botao {
+    cursor: pointer;
+  }
+
+  .botao {
+    align-items: center;
+    padding: 10px 12px; 
+    border-radius: 10px;
+    width: 185px;
+    border: none;
+    color: white;
+    margin: 8px;
+  }
+
+ 
+
+  @media screen (max-width: 1024px) and (min-width: 768px) {
+
+  }
+  
+  @media screen (max-width: 768px) {
+  
+  }
