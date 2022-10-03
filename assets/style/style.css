@@ -132,12 +132,6 @@
     margin: 8px;
   }
 
- 
-
-  @media screen (max-width: 1024px) and (min-width: 768px) {
-
-  }
-  
-  @media screen (max-width: 768px) {
-  
+  .error {
+    border-color: 2px solid red;
   }
